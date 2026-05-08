@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html>
+<head>
+    <title>Book Generator</title>
+</head>
+<body>
+
+<h1>Create Book</h1>
+
+<form action="/create-book" method="post">
+
+    <input type="text" name="title" placeholder="Book Title" required>
+    <br><br>
+
+    <input type="email" name="editor_email" placeholder="Editor Email" required>
+    <br><br>
+
+    <textarea name="notes" placeholder="Outline Notes"></textarea>
+    <br><br>
+
+    <button type="submit">Generate Outline</button>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Review Chapter</title>
+</head>
+<body>
+
+<h1>Review Chapter {{ chapter_number }}</h1>
+
+<pre>{{ chapter }}</pre>
+
+<form method="post">
+
+    <button name="action" value="approve">Approve Chapter</button>
+
+    <br><br>
+    <textarea name="notes" placeholder="Chapter Notes"></textarea>
+
+    <br><br>
+
+    <button name="action" value="regenerate">Regenerate Chapter</button>
+
+</form>
+
+</body>
+</html>
